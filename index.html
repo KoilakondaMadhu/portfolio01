@@ -87,6 +87,9 @@
             <li><a href="https://github.com/" target="_blank"><i class="uil uil-github-alt"></i></a></li>
             <li><a href="https://linkedin.com/" target="_blank"><i class="uil uil-linkedin-alt"></i></a></li>
             <li><a href="https://instagram.com/" target="_blank"><i class="uil uil-instagram-alt"></i></a></li>
+            <li><a href="https://netlify.com/" target="_blank"><i class="uil uil-netlify-alt"></i></a></li>
+            
+
         </ul>
         </div>
 
@@ -113,7 +116,7 @@
                 <img src="image/about.jpg" alt="about image">
             </div>
             <div class="about__details" data-aos="fade-in" data-aos-delay="300">
-                <h1>About me</h1>
+                <h1>About Me</h1>
                 <div class="about__cards">
                     <article class="about__card">
                         <i class="uil uil-award-alt"></i>
@@ -151,9 +154,15 @@
 <section class="services" id="services">
     <h1>Services</h1>
     <p>full stack and software development</p>
+
     <div class="container services__container">
+
+
+
+
         <ul class="services__left">
-            <li class="service__item frontend active">
+
+          <li class="service__item frontend active">     <!--services item frontend -->
                 <span><i class="uil uil-desktop"></i></span>
                 <div>
                     <h3>Frontend</h3>
@@ -161,7 +170,7 @@
                 </div>
             </li>
 
-            <li class="service__item backend">
+            <li class="service__item backend">            <!--services item backend -->
                 <span><i class="uil uil-database"></i></span>
                 <div>
                     <h3>Backend</h3>
@@ -171,7 +180,7 @@
 
            
 
-            <li class="service__item fullstack">
+            <li class="service__item fullstack">          <!--services item fullstack -->
                 <span><i class="uil uil-apps"></i></span>
                 <div>
                     <h3>FullStack </h3>
@@ -179,20 +188,37 @@
                 </div>
             </li>
 
+            <li class="service__item python">           <!--services item python -->
+            
+               <span> <i class="uil uil-code-branch"></i></span>
+                <div>
+                    <h3>Python</h3>
+                    <p>6 projects</p>
+                </div>
+            </li>
+
+            <!-- <li class="service__item androiddevelopement">           services item android developement -->
+                <!-- <span><i class="uil uil-apps"></i></span> -->
+                <!-- <div> -->
+                    <!-- <h3>Android Developement</h3>
+                    <p>20 projects</p> -->
+                <!-- </div>
+            </li> -->
+
+
+
         </ul>
 
 
+        
+
+
         <article class="services__right" data-aos="fade-in" data-aos-delay="200">
-            <!-- <h3>Frontend Development</h3>
-            <p>
-                Lorem ipsum dol ips Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, aspernatur veritatis eos architecto minus voluptatum nisi rerum. Odio ipsam nemo voluptate? Harum, incidunt atque nam magnam perspiciatis qui laborum quam.
-                a nobis vel eaque accusantium vero qui labore quia saepe asperiores quaerat cupiditate sap
-                iente aspernatur molestiae, doloribus fuga natus. Porro eaque aut eos facere sunt saepe ipsum nam impedit adipisci?
-            </p>
-            <p>
-                obis vel eaque accusantium vero qui labore quia saepe asperiores quaerat cupiditate sap
-                iente asperna
-            </p> -->
+           
+            <!--
+                => data.js will give the data  
+            -->
+
         </article>
     </div>
 </section>
@@ -217,6 +243,8 @@
     <li data-filter=".backend">Backend</li>
     <li data-filter=".fullstack">FullStact</li>
     <li data-filter=".python">python</li>
+    <!-- <li data-filter=".android">python</li> -->
+
 </ul>
 <div class="container projects__container" data-aos="fade-in">
     <article class="project mix fullstact active" data-order="1">
@@ -324,9 +352,9 @@
 </article>
 
     
-<article class="project mix backend " data-order="8">
+<article class="project mix backend fullstack" data-order="8">
     <div class="project__image">
-        <img src="image/project8.jpg" alt="project nine">
+        <img src="image/project8.jpg" alt="project eight">
     </div>
     <h3>Books Management System</h3>
     <p>a complete backend project evaluated by hero vired constructed with express.js,mongodb
@@ -565,4 +593,3 @@
 
 
 </html>
-
