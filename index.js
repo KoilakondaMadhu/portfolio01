@@ -2,6 +2,8 @@ const servicesButtons = document.querySelectorAll('.service__item');
 const serviceDetails = document.querySelector('.services__right');
 
 
+// DataTransfer.js servises data
+
 const getServices = (category) => {
     const details = servicesData.find(item => item.category === category);
     serviceDetails.innerHTML = `
