@@ -794,7 +794,7 @@ color: #fff;
 
 
     header{
-        height: 115vh;
+        height: 100vh;
     }
     .header__content{
         width: var(--container-width-sm);
