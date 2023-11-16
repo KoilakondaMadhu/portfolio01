@@ -339,6 +339,91 @@ justify-content: center;
 }
 
 
+/*
+=>codeing practice
+*/
+
+
+
+.programming__categories{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0 2.5rem;
+    flex-wrap: wrap; /* even in small screen no over flow; */
+}
+
+.programming__categories li {
+    background: var(--color-gray-100);
+    padding: 0.6rem 1.5rem;
+    border-radius: var(--radius-4);
+    font-weight: 500;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.programming__categories li:hover, li.mixitup-control-active{
+    background: var(--color-primary);
+    color: var(--color-gray-100);
+}
+
+.programming__container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(18rem,1fr));
+    gap: 3.5rem;
+}
+
+.programming{
+    background: var(--color-gray-100);
+    padding: 1.4rem;
+    border-radius: var(--radius-2);
+    transition: var(--transition);
+    /* mixitup animation*/
+    opacity: 0;
+    animation: identifier 1s ease forwards;
+}
+@keyframes identifier{
+    to {
+        opacity: 1;
+
+    }
+}
+.programming:hover{
+    box-shadow: 0 3rem 2rem rgba(0,0,0, 0.1);  
+    /* at the time of editing i want ti change box shadows to*/
+}
+.programming__image{
+    height: auto;
+    max-height: 12rem;
+    margin-bottom: 1.5rem;
+    border-radius: var(--radius-4);
+    overflow: hidden;
+}
+.programming p{
+    margin: 0.5rem 0 1.5rem;
+}
+
+.programming__cta{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.center-alignp {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+
+/*
+=>end codeing practice
+*/
+
 
 
 
